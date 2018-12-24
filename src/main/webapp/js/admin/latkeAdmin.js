@@ -3398,7 +3398,7 @@ admin.preference = {
             url: latkeConfig.servePath + "/console/preference/oss?ossServer=" + ossServer,
             type: "GET",
             cache: false,
-            success: function (result,) {
+            success: function (result) {
                 if (!result.sc) {
                     $("#loadMsg").text("");
                     $("#tipMsg").text(result.msg);
